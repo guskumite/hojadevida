@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="foto"><img src="./fotohv1.png" width="100" height="100"></div>
+            <div class="resumen">
+                <h1>Gustavo Alberto Molano Ruiz</h1>
+                <p>Especialista en Informática</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <p>Datos de contacto</p>
+            </div>
+            <div class="experiencia">
+                <h2>Experiencia laboral</h2>
+                <p>Historia laboral</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

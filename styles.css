@@ -1,0 +1,121 @@
+:root {
+    --altura-header: 50px;
+}
+
+.boton {
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+
+.boton:hover {
+    background-color: lightblue;
+}
+
+.belanos {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    height: var(--altura-header);
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    display: flex;
+    top: 0;
+}
+
+header > nav {
+    max-width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    padding: 0 1rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    padding-top: var(--altura-header);
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    height: 200vh;
+}
+
+.box1 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: beige;
+    background-image: url("./simon-berger-twukN12EN7c-unsplash.jpg");
+    background-size: cover;
+    max-height: 20%;
+}
+
+.foto {
+    margin-right: 20px;
+}
+
+.resumen {
+    flex: 1;
+}
+
+.box2 {
+    display: flex;
+    height: 66vh;
+    background-color: beige;
+    background-image: url("./simon-berger-twukN12EN7c-unsplash.jpg");
+    background-size: contain;
+    height: 80%;
+}
+
+.contacto,
+.experiencia {
+    flex: 1;
+    padding: 20px;
+    background-color: beige;
+    overflow: auto; /* Añadido para permitir desplazamiento si el contenido excede el tamaño */
+    background-image: url("./simon-berger-twukN12EN7c-unsplash.jpg");
+    background-size: contain;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: white;
+    max-width: 975px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    background-color: whitesmoke;
+    max-width: 975px;
+    text-align: justify;
+}
+
+.inter1p5 {
+    line-height: 1.5;
+}
+
+.pmas {
+    font-size: 24px;
+    line-height: 1.5;
+}
